@@ -1,5 +1,5 @@
 {
-  "name": "shiro.gg",
+  "name": "shiro.gg-wrapper",
   "version": "1.0.0",
   "description": "An unofficial Shiro.gg API wrapper!",
   "main": "index.js",
@@ -14,5 +14,14 @@
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAGUARAVI/shirogg-api-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JAGUARAVI/shirogg-api-wrapper/issues"
+  },
+  "homepage": "https://github.com/JAGUARAVI/shirogg-api-wrapper#readme"
 }
