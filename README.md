@@ -1,5 +1,6 @@
 # shiro.gg-wrapper
 An unofficial Shiro.gg Wrapper
+
 Installation:
 ```
 npm i @jaguar_avi/shiro.gg-wrapper
