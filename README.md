@@ -1,14 +1,17 @@
-# shirogg-package
-Unofficial Shiro.gg Package
-
+# shiro.gg-wrapper
+An unofficial Shiro.gg Wrapper
+Installation:
+```
+npm i @jaguar_avi/shiro.gg-wrapper
+```
 Usage: 
 ```js
-  const shiro = require('shiro.gg-wrapper');
+  const shiro = require('@jaguar_avi/shiro.gg-wrapper');
 ```
 
 Example:
 ```js
-  const shiro = require('shiro.gg-wrapper');
+  const shiro = require('@jaguar_avi/shiro.gg-wrapper');
   
   shiro.sfw("avatars").then(console.log); //gets a random avatar image url
   shiro.sfw("pat").then(console.log); //gets a random pat image url
