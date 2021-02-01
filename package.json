@@ -1,6 +1,6 @@
 {
   "name": "shiro.gg-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An unofficial Shiro.gg API wrapper!",
   "main": "index.js",
   "scripts": {
