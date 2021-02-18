@@ -14,27 +14,15 @@ Example:
 ```js
   const shiro = require('@jaguar_avi/shiro.gg-wrapper');
   
-  shiro.sfw("avatars").then(console.log); //gets a random avatar image url
-  shiro.sfw("pat").then(console.log); //gets a random pat image url
+  //get a random avatar image url
+  shiro.sfw("avatars").then((res, err) => {
+    if (err) throw new Error(err);
+    console.log(res);
+  });
+  
+  //get a random pat image url
+  shiro.sfw("pat").then((res, err) => {
+    if (err) throw new Error(err);
+    console.log(res);
+  });
 ```
-
-Allowed Sfw types:
-  `avatars,
-  blush,
-  cry,
-  hug,
-  kiss,
-  neko,
-  nom,
-  pat,
-  poke,
-  pout,
-  slap,
-  smug,
-  tickle,
-  wallpapers`
-
-Allowed Nsfw types:
-  `bondage,
-   hentai,
-   thighs`
