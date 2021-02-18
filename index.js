@@ -7,7 +7,7 @@ module.exports = {
      */
     sfw: async function (type) {
         return new Promise(async (resolve, reject) => {
-			if (!type || (typeof type != 'string')) return reject("Input must be a string.");
+            if (!type || (typeof type != 'string')) return reject("Input must be a string.");
             let result = await (await fetch(`https://shiro.gg/api/images/${type.toLowerCase()}`)).json();
             if (result.code !== 200) return reject(`${result.code}: ${result.message}`);
             return resolve(result.url);
@@ -20,7 +20,7 @@ module.exports = {
      */
     nsfw: async function (type) {
         return new Promise(async (resolve, reject) =>{
-			if (!type || (typeof type != 'string')) return reject("Input must be a string.");
+            if (!type || (typeof type != 'string')) return reject("Input must be a string.");
             let result = await (await fetch(`https://shiro.gg/api/images/nsfw/${type.toLowerCase()}`)).json();
             if (result.code !== 200) return reject(`${result.code}: ${result.message}`);
             return resolve(result.url);
