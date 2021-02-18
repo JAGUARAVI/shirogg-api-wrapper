@@ -1,4 +1,4 @@
-const shiro = require('@jaguar_avi/shiro.gg-wrapper');
+const shiro = require('./index.js');
 
 //get a random avatar image url
 shiro.sfw("avatars").then((res, err) => {
